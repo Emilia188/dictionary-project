@@ -12,6 +12,7 @@ export default function Dictionary() {
   function search(event) {
     event.preventDefault();
 
+    // documentaion: https://www.shecodes.io/learn/apis/dictionary
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=a93d1e9t3900f64c3459obcda72aab15`;
     axios.get(apiUrl).then(handleResponse);
   }
