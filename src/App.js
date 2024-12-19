@@ -11,7 +11,19 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="dictionary" />
         </main>
-        <footer className="App-footer">Coded by Emilia</footer>
+        <footer className="App-footer">
+          This project was coded by {}
+          <a href="https://github.com/Emilia188" target="_blank">
+            Emilia Adasiewicz {}
+          </a>
+          and is open-sourced on {}
+          <a
+            href="https://github.com/Emilia188/dictionary-project"
+            target="_blank"
+          >
+            GitHub.
+          </a>
+        </footer>
       </div>
     </div>
   );
