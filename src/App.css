@@ -1,10 +1,17 @@
-.App {
-  margin: 30px 0;
-  text-align: center;
+body {
+  background: #f2f9f1;
+  margin: 60px 120px;
+}
+a {
+  color: #466449;
 }
 .App-header {
-  color: black;
+  margin: 30px 0;
+  text-align: center;
+  font-size: 32px;
+  color: #466449;
 }
 .App-footer {
   margin: 30px 0;
+  text-align: center;
 }
