@@ -40,7 +40,4 @@
   .Meaning h3 {
     font-size: 18px;
   }
-  .Photos img:hover {
-    transform: scale(1.3);
-  }
 }
