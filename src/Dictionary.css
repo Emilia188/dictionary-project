@@ -1,21 +1,46 @@
+.Dictionary {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .Dictionary section {
   background: white;
   padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 5px 12px rgb(0, 0, 0, 0.1);
-  margin: 20px 100px;
+  margin: 20px 80px;
 }
 
 .Dictionary input {
   width: 100%;
-  padding: 10px 10px;
+  padding: 12px 15px;
   border-radius: 8px;
   border: 1px solid #b6cdbd;
-  font-size: 16px;
+  font-size: 18px;
 }
 .Dictionary h1 {
   text-align: center;
   opacity: 0.7;
   font-size: 24px;
   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .App {
+    padding: 0;
+  }
+  .Dictionary section {
+    margin: 20px 20px;
+  }
+  .App-header h1 {
+    font-size: 32px;
+  }
+  .Dictionary h1,
+  .Dictionary h2 {
+    font-size: 18px;
+  }
+  .Meaning h3 {
+    font-size: 18px;
+  }
+  .Photos img:hover {
+    transform: scale(1.3);
+  }
 }

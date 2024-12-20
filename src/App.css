@@ -1,20 +1,20 @@
 body {
   background: #f2f9f1;
-  margin: 60px 120px;
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding: 30px 0 30px;
 }
 a {
   color: #466449;
   text-decoration: none;
   font-weight: bold;
 }
-.App-header {
+.App-header h1 {
   margin: 30px 0;
   text-align: center;
-  font-size: 32px;
+  font-size: 46px;
   font-weight: 700;
   color: #466449;
 }
